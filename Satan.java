@@ -2,9 +2,9 @@
  * Lucifer is a prisoner who always defects, regardless of the opponent's plays.
  * @author Serina Chang - sc3003
  */
-public class Lucifer extends Prisoner
+public class Satan extends Prisoner
 {
-    public Lucifer()
+    public Satan()
     {
         lastPlay = null;
         name = "Lucifer";
