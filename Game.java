@@ -20,12 +20,12 @@ public class Game
         myJudger = new Judger();
         scoreboard = new int[prisoners.length];
         
-        Prisoner myLucifer = new Lucifer();        
+        Prisoner mySatan = new Satan();        
         Prisoner myJesus = new Jesus();
         Prisoner myRandomizer = new Randomizer();
         Prisoner myTitForTat = new TitForTat(); 
         prisoners = new Prisoner[4];
-        prisoners[0] = myLucifer;
+        prisoners[0] = mySatan;
         prisoners[1] = myJesus;
         prisoners[2] = myRandomizer;
         prisoners[3] = myTitForTat;        
